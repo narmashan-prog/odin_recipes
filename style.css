@@ -1,0 +1,43 @@
+* {
+  text-align: center;
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.child1,
+.child2,
+.child3 {
+  flex: 1, 1, auto;
+  height: 200px;
+  width: 200px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+}
+
+.img1 {
+  height: 200px;
+  width: 200px;
+  border: 2px solid blue;
+}
+
+.ing {
+  list-style: inside;
+  font-style: italic;
+}
+
+.steps {
+  border: 2px solid lightseagreen;
+  font-style: italic;
+  li {
+    text-align: left;
+  }
+}
